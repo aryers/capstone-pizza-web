@@ -1,0 +1,55 @@
+
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+main{
+    background-image: url(./assets/images/background.jpg); 
+    background-repeat: no-repeat;   
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+
+    
+}
+#logo{
+    display: block;
+    margin: 0 auto;
+    width: 80px;  
+ }
+
+ nav{
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 20px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+ }
+ ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ }
+ a{
+    color: rgb(246, 246, 246);
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
+ p{
+    color: rgb(147, 41, 6);
+    line-height: 1.5;
+    
+ }
+ h1{
+    color: rgb(11, 11, 11);
+    font-size: 3rem;
+ }
+ 
+ .banner-text{
+    background-color: #ffff;
+    margin: 0 auto;
+    padding: 20px 20px;
+ }
